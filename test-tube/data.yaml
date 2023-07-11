@@ -1,0 +1,13 @@
+train: test-tube/train/images
+val: test-tube/valid/images
+test: test-tube/test/images
+
+nc: 6
+names: ['-20loss', '20-39loss', '40-59loss', 'blocked', 'loss-60', 'plugged']
+
+roboflow:
+  workspace: muhammad-faiz-noh-glbe0
+  project: test-tube-jph4y
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-faiz-noh-glbe0/test-tube-jph4y/dataset/13
